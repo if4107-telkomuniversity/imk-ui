@@ -1,0 +1,36 @@
+.row-modul{
+    margin-left: 0px;
+}
+
+.col-modul{
+    width: 330px; 
+       
+}
+
+.card-column-modul{
+    padding-left: 5px;
+}
+
+.card-body-modul{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.text-praktikum{
+    padding-left: 32px; 
+    padding-top: 30px;
+}
+
+.p-modul{
+    color: #184254;
+}
+
+.modul-number{
+    font-size:60px;
+}
+
+.card:hover{
+    background-color: #E5E5E5;
+}
