@@ -60,3 +60,10 @@
   color: #0AA4E5 !important;
 }
 
+#upload-box svg {
+  height: 10vh;
+  width: 6vw;
+  float: right;
+  fill: #184254;
+}
+

@@ -34,3 +34,10 @@
   color: #184254 !important;
 }
 
+#upload-box svg {
+  height: 10vh;
+  width: 6vw;
+  float: right;
+  fill: #184254;
+}
+
