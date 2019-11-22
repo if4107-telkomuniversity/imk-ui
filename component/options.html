@@ -1,0 +1,219 @@
+<div id="breadcrumb" class="row" style="padding-right: 1vw;">
+    <!-- Start: divider-text-middle -->
+    <div class="col-md-10" style="text-align: center;width: 88vw;float: left;">
+        <ol class="breadcrumb color-blue" style="margin-bottom: 0;padding: 0;background-color: initial;">
+            <li class="breadcrumb-item">
+                <a href="#">
+                    <span class="color-blue">Praktikum</span>
+                </a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">
+                    <span class="color-blue">Modul 1</span>
+                </a>
+            </li>
+        </ol>
+        <h6 class="text-left" style="color: #68828D;">Tes Awal</h6>
+    </div>
+    <!-- End: divider-text-middle -->
+    <!-- Start: divider-text-middle -->
+    <div class="text-center d-xl-flex justify-content-xl-center align-items-xl-center col-md-2 bg-blue" style="width: 12vw;border-radius: 2vh;text-align: center;height: 6vh;">
+        <span class="text-center d-xl-flex align-items-xl-center bg-blue" style="font-size: 1em;">01:58:21</span>
+    </div>
+    <!-- End: divider-text-middle -->
+</div>
+<div class="shadow container" id="question-box" style="background-color: white;border-color: #BEBEBE;border-radius: 1.5vh;padding: 2vh 2vw;font-size: .8em;margin-top: 3vh;">
+    <div id="question">
+        <span>6. yang dimaksud dengan basis data spasial dalam sebuah pemilihan basis data pada pembuatan sistem informasi geografis adalah...</span>
+    </div>
+    <div id="answers" style="margin-top: 2vh;">
+        <div class="form-check">
+            <input class="form-check-input ans-option" onchange="toggleOption()" type="radio" id="a" name="6">
+            <label class="form-check-label opt-a-label" for="a">
+                <span class="btn opt-btn btn-sm opt-btn-active" id="btn-a">A</span>
+                &nbsp;basis data yang spasial
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input ans-option" onchange="toggleOption()" type="radio" id="b" name="6">
+            <label class="form-check-label opt-b-label" for="b">
+                <span class="btn opt-btn btn-sm" id="btn-b">B</span>
+                &nbsp;basis data yang spasial
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input ans-option" onchange="toggleOption()" type="radio" id="c" name="6">
+            <label class="form-check-label opt-c-label" for="c">
+                <span class="btn opt-btn btn-sm" id="btn-c">C</span>
+                &nbsp;basis data yang spasial
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input ans-option" onchange="toggleOption()" typeH="radio" id="d" name="6">
+            <label class="form-check-label opt-d-label" for="d">
+                <span class="btn opt-btn btn-sm" id="btn-d">D</span>
+                &nbsp;basis data yang spasial</label>
+            </div>
+        </div>
+    </div>
+    <div id="question-btn" style="margin: 3vh 0;">
+        <button class="btn btn-primary question-nav" type="button" style="background-color: #68828D;border-color: rgba(17,105,154,0);">
+        <i class="fa fa-chevron-left">
+        </i>&nbsp;Soal Sebelumnya</button>
+        <button class="btn btn-primary pull-right question-nav"
+        style="background-color: #184254;border-color: rgba(17,105,154,0);" onclick="promptOptionFinish()">Submit
+        </button>
+    </div>
+    <div id="question-nav" style="position: fixed;right: -20vw;top: 27vh;">
+        <div class="text-center border rounded" id="question-nav-expand" style="width: 3vw;height: 5vh;background-color: #47AA80;border: 1px solid #11699A !important;float: left;margin-right: -0.5vw;" onclick="toggleQuestionNav()">
+            <i class="fa fa-chevron-left" style="color: white;">
+            </i>
+        </div>
+        <div class="border rounded border-dark shadow" style="width: 20vw;float: left;border-color: #184254;background-color: white;">
+            <div class="row" style="margin: 2vh 1vw ;">
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">1&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue bg-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">2&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue bg-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn bg-blue" type="button">3&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue bg-blue border-white" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+            </div>
+            <div class="row" style="margin: 2vh 1vw ;">
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">4&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">5&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">6&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+            </div>
+            <div class="row" style="margin: 2vh 1vw ;">
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">7&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">8&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">9&nbsp;</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+            </div>
+            <div class="row" style="margin: 2vh 1vw ;">
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">10</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">11</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">12</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+            </div>
+            <div class="row" style="margin: 2vh 1vw ;">
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">13</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">14</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+                <!-- Start: divider-text-middle -->
+                <div class="col-sm-4" style="text-align:center;">
+                    <button class="btn btn-primary question-nav-btn" type="button">15</button>
+                    <!-- Start: divider-text-middle -->
+                    <div class="border-blue" style="text-align: center;width: 3vh;border-radius: 50%;padding-top: 3vh;position: absolute;z-index: 3;top: -1vh;background-color: white;right: 1vh;border: solid 1px;">
+                    </div>
+                    <!-- End: divider-text-middle -->
+                </div>
+                <!-- End: divider-text-middle -->
+            </div>
+        </div>
+    </div>

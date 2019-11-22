@@ -1,0 +1,311 @@
+<div id="breadcrumb" class="row" style="padding-right: 1vw;">
+	<!-- Start: divider-text-middle -->
+	<div class="col-md-10" style="text-align: center;width: 88vw;float: left;">
+		<ol class="breadcrumb color-blue" style="margin-bottom: 0;padding: 0;background-color: initial;">
+			<li class="breadcrumb-item"><a href="#"><span class="color-blue">Praktikum</span></a></li>
+		</ol>
+		<h6 class="text-left" style="color: #68828D;"></h6>
+	</div>
+	<!-- End: divider-text-middle -->
+</div>
+<div id="content-box">
+	<div class="row row-modul my-3 color-blue" style="font-family: roboto">
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;" onclick="toggleModule(1)">
+				<div class="card bg-light shadow module-1" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">1</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-1" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 1
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(2)">
+				<div class="card bg-light shadow module-2" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">2</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-2" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 2
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form onsubmit="return loadQuestion(false)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+								<input type="submit" name="" hidden="">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(3)">
+				<div class="card bg-light shadow module-3" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">3</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-3" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 3
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row row-modul my-3 color-blue" style="font-family: roboto">
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(4)">
+				<div class="card bg-light shadow module-4" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">4</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-4" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 4
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;" onclick="toggleModule(5)">
+				<div class="card bg-light shadow module-5" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">5</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-5" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 5
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(6)">
+				<div class="card bg-light shadow module-6" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">6</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-6" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 6
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row row-modul my-3 color-blue" style="font-family: roboto">
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(7)">
+				<div class="card bg-light shadow module-7" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">7</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-7" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 7
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;" onclick="toggleModule(8)">
+				<div class="card bg-light shadow module-8" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">8</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-8" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 8
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(9)">
+				<div class="card bg-light shadow module-9" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">9</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-9" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 9
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row row-modul my-3 color-blue" style="font-family: roboto">
+		<div class="col col-md-4 col-modul">
+			<div class="card-columns" style="padding-left: 5px;"onclick="toggleModule(10)">
+				<div class="card bg-light shadow module-10" style="width: 295px; min-height: 18vh; max-height: 20vh; border-radius: 2vh">
+					<div class="card-body text-center card-body-modul px-5 py-0">
+						<div class="card-text d-flex align-items-center justify-content-center">
+							<span class="modul-number" style="font-size: 3.5em">10</span>
+							<span class="text-left ml-2" style="line-height: 1;">Relational Model 2</span>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow module-10" style="width: 295px; min-height: 18vh; min-height: 18vh; max-height: 20vh; border-radius: 2vh; background-color: #00000000; border-color: #184254" hidden="">
+					<div class="card-body text-center card-body-modul px-3 py-3">
+						<div class="px-3 card-title" style="background-color: #f1f1f1; position: absolute; font-size: 0.9em; top: -2vh">
+							Modul 10
+						</div>
+						<div class="card-text align-items-center justify-content-center mt-2">
+							<form action="#/quiz" onsubmit=" return loadQuestion(true)">
+								<select class="custom-select shadow-sm border-blue" style="max-width: 40vw;color: #184254; border-radius: 1.5vh">
+									<option value="1" selected="">Asprak</option>
+									<option value="1">VAY</option>
+									<option value="2">VAY</option>
+								</select>
+								<input type="text" placeholder="Kode Autentikasi" name="auth-key" class="border-blue mt-3 px-2 py-1 shadow-sm" style="border-radius: 1.5vh; border-width: 1px; width: 100%; font-size: 0.7em">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

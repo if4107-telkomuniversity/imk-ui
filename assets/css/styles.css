@@ -1,43 +1,41 @@
 .custom-select:disabled {
-  color: #184254;
-  background: #e9ecef !important;
-  max-width: 40vw;
+    color: #184254;
+    background: #e9ecef !important;
+    max-width: 40vw;
 }
-
 .opt-btn {
-  border-radius: 50%;
-  border: 2px solid;
+    height: 4vh;
+    border-radius: 50%;
+    border: 2px solid;
+    text-align: center;
+    width: 4vh;
+    padding: 0;
+    font-size: 1em;
+    line-height: 3.5vh
 }
-
 .border-blue {
-  border-color: #184254;
+    border-color: #184254;
 }
-
 .question-nav-btn {
-  color: black;
-  background-color: inherit;
-  border-color: #184254;
-  font-size: .7em;
+    color: black;
+    background-color: inherit;
+    border-color: #184254;
+    font-size: .7em;
 }
-
 .question-nav-btn:hover {
-  background-color: initial;
-  color: black;
+    background-color: initial;
+    color: black;
 }
-
 .bg-blue {
-  background-color: #184254;
-  color: white;
+    background-color: #184254;
+    color: white;
 }
-
 .color-blue {
-  color: #184254 !important;
+    color: #184254 !important;
 }
-
 #upload-box svg {
-  height: 10vh;
-  width: 6vw;
-  float: right;
-  fill: #184254;
+    height: 10vh;
+    width: 6vw;
+    float: right;
+    fill: #184254;
 }
-

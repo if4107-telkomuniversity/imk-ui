@@ -1,5 +1,4 @@
-let navExpanded = false;
-$('#question-nav-expand').click(() => {
+const toggleQuestionNav = () => {
     if (navExpanded) {
         $('#question-nav').css('right', '-20vw');
         navExpanded = false;
@@ -7,4 +6,5 @@ $('#question-nav-expand').click(() => {
         $('#question-nav').css('right', '-.5vw');
         navExpanded = true;
     }
-});
+};
+let navExpanded = false;
